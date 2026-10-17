@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", "Segoe UI", system-ui, -apple-system, sans-serif;
+  --color-navy: #0f1f3d;
+}
+
+html { background: #f1f5f9; }
+body { margin: 0; color: #0f1f3d; font-size: 13px; -webkit-font-smoothing: antialiased; }
+.tabular { font-variant-numeric: tabular-nums; }
+:focus-visible { outline: 2px solid #2563eb; outline-offset: 2px; }
+.recharts-wrapper:focus, .recharts-surface:focus { outline: none; }
